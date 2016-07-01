@@ -166,9 +166,9 @@ class PhpExtractor extends AbstractFileExtractor implements ExtractorInterface
                     } elseif (self::MESSAGE_TOKEN == $item) {
                         $message = $this->getMessage($tokenIterator);
                         break;
-                    } else {
+                    }  
                         break;
-                    }
+                    
                 }
 
                 if ($message) {
